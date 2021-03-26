@@ -1,0 +1,24 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Traincel",
+        "description": "Webinar Listing",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3000/api/v1",
+            "description": "Local server"
+        }
+    ],
+    "tags":[
+        {
+            "name": "Webinars",
+            "descfription": "Api for webinars"
+        }
+    ]
+}
